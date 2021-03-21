@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#ffffff">
+
+    <ImageView
+        android:id="@+id/banner"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:src="@drawable/login_banner"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/banner"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:layout_marginTop="40dp"
+        >
+
+        <swu.xl.secondhouse.thirdparty.other.XLImageView
+            android:id="@+id/icon"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/login_icon"
+            />
+
+        <EditText
+            android:id="@+id/nickname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:theme="@style/EditTextStyle"
+            android:cursorVisible="false"
+            android:drawableStart="@drawable/login_user"
+            android:drawablePadding="5dp"
+            android:hint="请输入昵称"
+            android:textSize="14sp"
+            />
+
+        <EditText
+            android:id="@+id/account_up"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:theme="@style/EditTextStyle"
+            android:cursorVisible="false"
+            android:drawableStart="@drawable/login_account"
+            android:drawablePadding="5dp"
+            android:hint="请输入手机号"
+            android:textSize="14sp"
+            />
+
+        <EditText
+            android:id="@+id/password_up"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/EditTextStyle"
+            android:cursorVisible="false"
+            android:layout_marginTop="20dp"
+            android:drawableStart="@drawable/login_password"
+            android:drawablePadding="5dp"
+            android:hint="请输入密码"
+            android:textSize="14sp"
+            android:inputType="textPassword"
+            />
+
+        <TextView
+            android:id="@+id/register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:text="注 册"
+            android:background="@drawable/login_bg"
+            android:textAlignment="center"
+            android:padding="10dp"
+            android:layout_marginTop="40dp"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.activity.MainActivity">
+
+    <com.wuhenzhizao.titlebar.widget.CommonTitleBar
+        xmlns:titlebar="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        titlebar:leftType="textView"
+        titlebar:leftTextColor="@android:color/white"
+        titlebar:centerType="textView"
+        titlebar:centerText="链家"
+        titlebar:centerTextColor="@android:color/white"
+        titlebar:rightType="imageButton"
+        titlebar:rightImageResource="@drawable/location"
+        titlebar:showBottomLine="true"
+        titlebar:statusBarColor="@color/selectColor"
+        titlebar:titleBarColor="@color/selectColor" />
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottombar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:menu="@menu/bottom_menu"
+        android:background="@color/bottomBgColor"
+        app:itemTextColor="@color/bottom_bar_tint_color"
+        app:itemIconTint="@color/bottom_bar_tint_color"
+        app:itemBackground="@null"
+        />
+
+</LinearLayout>

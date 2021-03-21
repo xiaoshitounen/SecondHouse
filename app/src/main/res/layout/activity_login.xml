@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <ImageView
+        android:id="@+id/banner"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:src="@drawable/login_banner"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/banner"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:layout_marginTop="40dp"
+        >
+
+        <EditText
+            android:id="@+id/account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/EditTextStyle"
+            android:cursorVisible="false"
+            android:drawableStart="@drawable/login_account"
+            android:drawablePadding="5dp"
+            android:hint="账号"
+            android:textSize="14sp"
+            />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/EditTextStyle"
+            android:cursorVisible="false"
+            android:layout_marginTop="20dp"
+            android:drawableStart="@drawable/login_password"
+            android:drawablePadding="5dp"
+            android:hint="密码"
+            android:textSize="14sp"
+            android:inputType="textPassword"
+            />
+
+        <TextView
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:text="登 录"
+            android:background="@drawable/login_bg"
+            android:textAlignment="center"
+            android:padding="10dp"
+            android:layout_marginTop="40dp"
+            />
+
+        <TextView
+            android:id="@+id/register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="创建账号"
+            android:textStyle="bold"
+            android:textColor="@color/userColor"
+            android:layout_marginTop="20dp"
+            android:textSize="12sp"
+            android:padding="10dp"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>
