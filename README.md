@@ -1,6 +1,13 @@
 # SecondHouse
 
-### 1.使用到的第三方库
+### 1.视觉效果
+![](https://android-project-1300729795.cos.ap-guangzhou.myqcloud.com/secondhouseandroid/second_house_first.jpg)
+![](https://android-project-1300729795.cos.ap-guangzhou.myqcloud.com/secondhouseandroid/second_house_second.jpg)
+1[](https://android-project-1300729795.cos.ap-guangzhou.myqcloud.com/secondhouseandroid/second_house_third.jpg)
+![](https://android-project-1300729795.cos.ap-guangzhou.myqcloud.com/secondhouseandroid/second_house_fourth.jpg)
+![](https://android-project-1300729795.cos.ap-guangzhou.myqcloud.com/secondhouseandroid/second_house_fiveth.jpg)
+
+### 2.使用到的第三方库
 1> 完成沉浸式状态栏：[ImmersionBar](https://github.com/gyf-dev/ImmersionBar)
 
 2> 自定义标题栏：[android-titlebar](https://github.com/wuhenzhizao/android-titlebar)
