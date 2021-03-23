@@ -1,6 +1,6 @@
 # SecondHouse
 
-图片挂了，可以参考博客：[Android项目：二手房](http://182.254.228.71/Android%E9%A1%B9%E7%9B%AE%EF%BC%9A%E4%BA%8C%E6%89%8B%E6%88%BF/)
+图片挂了，可以参考博客：[Android项目：二手房](http://fanandjiu.com/Android%E9%A1%B9%E7%9B%AE%EF%BC%9A%E4%BA%8C%E6%89%8B%E6%88%BF/)
 
 ### 1.视觉效果
 ![](https://android-project-1300729795.cos.ap-guangzhou.myqcloud.com/secondhouseandroid/second_house_first.jpg)
