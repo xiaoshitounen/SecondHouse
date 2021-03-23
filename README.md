@@ -32,3 +32,45 @@
 
 
 > 智能刷新库API介绍: [Android智能刷新框架SmartRefreshLayout](https://www.jianshu.com/p/29e315ff44a6)
+
+
+### 3.房源信息爬取
+如何爬取链家房源信息参考我的另一个项目：https://github.com/xiaoshitounen/SecondHouseSpider
+
+### 4.后端API介绍
+① 获取指定城市区县信息，目前只支持cq(重庆)和gz(广州)
+```
+http://182.254.228.71/secondhouse/config.php?city=cq
+http://182.254.228.71/secondhouse/config.php?city=gz
+```
+
+② 获取指定城市 指定区县 指定偏移的 10条房子信息
+```
+http://182.254.228.71/secondhouse/message.php?city=cq&area=yubei&offset=3
+http://182.254.228.71/secondhouse/message.php?city=gz&area=haizhu&offset=3
+```
+
+③ 获取指定城市 指定房子的基本属性
+```
+http://182.254.228.71/secondhouse/base.php?city=cq&house=1
+```
+
+④ 获取指定城市 指定房子的交易属性
+```
+http://182.254.228.71/secondhouse/business.php?city=cq&house=1
+```
+
+⑤ 获取指定城市 指定房子的特色信息
+```
+http://182.254.228.71/secondhouse/special.php?city=cq&house=1
+```
+
+⑥ 获取指定城市 指定房子的图片信息
+```
+http://182.254.228.71/secondhouse/picture.php?city=cq&house=1
+```
+
+⑦ 获取指定城市 指定id的房子信息
+```
+http://182.254.228.71/secondhouse/house.php?city=gz&house=1
+```
