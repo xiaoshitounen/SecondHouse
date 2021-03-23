@@ -35,6 +35,9 @@
 如何爬取链家房源信息参考我的另一个项目：https://github.com/xiaoshitounen/SecondHouseSpider
 
 ### 4.后端API介绍
+
+后端使用的是云服务器CentOS，采用Apache + PHP的方案
+
 ① 获取指定城市区县信息，目前只支持cq(重庆)和gz(广州)
 ```
 http://182.254.228.71/secondhouse/config.php?city=cq
@@ -71,3 +74,6 @@ http://182.254.228.71/secondhouse/picture.php?city=cq&house=1
 ```
 http://182.254.228.71/secondhouse/house.php?city=gz&house=1
 ```
+
+### 5.整体架构
+![](https://android-project-1300729795.cos.ap-guangzhou.myqcloud.com/secondhouseandroid/second_house_framework.png)
