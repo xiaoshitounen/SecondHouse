@@ -1,5 +1,7 @@
 # SecondHouse
 
+图片挂了，可以参考博客：[Android项目：二手房](http://182.254.228.71/Android%E9%A1%B9%E7%9B%AE%EF%BC%9A%E4%BA%8C%E6%89%8B%E6%88%BF/)
+
 ### 1.视觉效果
 ![](https://android-project-1300729795.cos.ap-guangzhou.myqcloud.com/secondhouseandroid/second_house_first.jpg)
 ![](https://android-project-1300729795.cos.ap-guangzhou.myqcloud.com/secondhouseandroid/second_house_second.jpg)
@@ -73,6 +75,11 @@ http://182.254.228.71/secondhouse/picture.php?city=cq&house=1
 ⑦ 获取指定城市 指定id的房子信息
 ```
 http://182.254.228.71/secondhouse/house.php?city=gz&house=1
+```
+
+⑧ 其他API获取，例如房源咨询以及房源表参考下方的可视化平台
+```
+https://www.ershoufangdata.com/index?city=cq
 ```
 
 ### 5.整体架构
