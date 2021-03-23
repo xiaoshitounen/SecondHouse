@@ -3,7 +3,7 @@
 ### 1.视觉效果
 ![](https://android-project-1300729795.cos.ap-guangzhou.myqcloud.com/secondhouseandroid/second_house_first.jpg)
 ![](https://android-project-1300729795.cos.ap-guangzhou.myqcloud.com/secondhouseandroid/second_house_second.jpg)
-1[](https://android-project-1300729795.cos.ap-guangzhou.myqcloud.com/secondhouseandroid/second_house_third.jpg)
+![](https://android-project-1300729795.cos.ap-guangzhou.myqcloud.com/secondhouseandroid/second_house_third.jpg)
 ![](https://android-project-1300729795.cos.ap-guangzhou.myqcloud.com/secondhouseandroid/second_house_fourth.jpg)
 ![](https://android-project-1300729795.cos.ap-guangzhou.myqcloud.com/secondhouseandroid/second_house_fiveth.jpg)
 
