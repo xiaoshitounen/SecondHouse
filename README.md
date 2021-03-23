@@ -20,7 +20,7 @@
 
 6> 轮播图：[banner](https://github.com/youth5201314/banner)
 
-7> 智能刷新：[SmartRefreshLayout](https://github.com/scwang90/SmartRefreshLayout)
+7> 智能刷新：[SmartRefreshLayout](https://github.com/scwang90/SmartRefreshLayout) --- 智能刷新库API介绍: [Android智能刷新框架SmartRefreshLayout](https://www.jianshu.com/p/29e315ff44a6)
 
 8> 图片放大浏览：[BigImageViewPager](https://github.com/SherlockGougou/BigImageViewPager)
 
@@ -29,9 +29,6 @@
 10> 本地数据库操作：[room](https://developer.android.com/jetpack/androidx/releases/room)
 
 11> 腾讯云对象存储存储头像：[cos-xml](https://cloud.tencent.com/document/product/436/12159#1.-.E5.AE.9E.E7.8E.B0.E8.8E.B7.E5.8F.96.E4.B8.B4.E6.97.B6.E5.AF.86.E9.92.A5)
-
-
-> 智能刷新库API介绍: [Android智能刷新框架SmartRefreshLayout](https://www.jianshu.com/p/29e315ff44a6)
 
 
 ### 3.房源信息爬取
