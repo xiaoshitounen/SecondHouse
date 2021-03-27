@@ -32,6 +32,7 @@
 
 11> 腾讯云对象存储存储头像：[cos-xml](https://cloud.tencent.com/document/product/436/12159#1.-.E5.AE.9E.E7.8E.B0.E8.8E.B7.E5.8F.96.E4.B8.B4.E6.97.B6.E5.AF.86.E9.92.A5)
 
+12> 图表绘制库：[hellocharts-android](https://github.com/lecho/hellocharts-android)
 
 ### 3.房源信息爬取
 如何爬取链家房源信息参考我的另一个项目：https://github.com/xiaoshitounen/SecondHouseSpider
