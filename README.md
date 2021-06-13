@@ -1,5 +1,7 @@
 # SecondHouse
 
+> 注意：由于云MySql到期，相关数据不再继续存储。重庆的二手房数据已经备份至sql文件夹中，有需要自取。
+
 图片挂了，可以参考博客：[Android项目：二手房](http://fanandjiu.com/Android%E9%A1%B9%E7%9B%AE%EF%BC%9A%E4%BA%8C%E6%89%8B%E6%88%BF/)
 
 ### 1.视觉效果
